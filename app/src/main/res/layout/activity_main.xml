@@ -23,17 +23,11 @@
         android:src="@drawable/test1"
         android:background="@drawable/filler"
 
-        />
+        /><![CDATA[
 
-    <ImageView
-        android:id="@+id/phone_icon"
-        android:layout_width="399dp"
-        android:layout_height="171dp"
-        android:layout_gravity="center"
-        android:src="@drawable/logo"
-        tools:layout_editor_absoluteX="5dp"
-        tools:layout_editor_absoluteY="19dp" />
+    -->
 
+    ]]>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -53,8 +47,8 @@
             android:gravity="center"
             android:text="Welcome! With Roll for Sushi we \n decide lunch for you!"
             android:textSize="18sp"
-            android:fontFamily="Roboto-Medium"
-            android:textColor="#00d9ff"/>
+            android:fontFamily="sans-serif-medium"
+            android:textColor="#F000"/>
 
         <Button
             android:id="@+id/button_timeline"
@@ -70,6 +64,14 @@
             android:text="Get Lunch!"
             android:textColor="#FFF"
             android:background="#F000"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="141dp"
+            android:src="@drawable/logo"
+
+
+            />
 
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>
