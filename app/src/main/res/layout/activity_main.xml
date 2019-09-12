@@ -7,6 +7,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
+
 <!--    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,17 +40,17 @@
 
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="108dp"
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_marginStart="80dp"
+            android:layout_marginStart="0dp"
             android:layout_marginTop="169dp"
+            android:fontFamily="monospace"
             android:gravity="center"
             android:text="Welcome! With Roll for Sushi we \n decide lunch for you!"
-            android:textSize="18sp"
-            android:fontFamily="sans-serif-medium"
-            android:textColor="#F000"/>
+            android:textColor="#F000"
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/button_timeline"
@@ -62,8 +64,10 @@
             android:layout_marginEnd="69dp"
             android:gravity="center"
             android:text="Get Lunch!"
-            android:textColor="#FFF"
-            android:background="#F000"/>
+            android:textColor="#F000"
+            android:fontFamily="monospace"
+            android:background="@drawable/button_states"
+            android:shape="oval"/>
 
         <pl.droidsonroids.gif.GifImageView
             android:layout_width="match_parent"
