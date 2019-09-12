@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="500dp"
+        android:src="@drawable/test1"
+        android:background="@drawable/filler"
+
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="680dp"
+        android:src="@drawable/filler" />
+
+    <ImageView
+        android:layout_width="505dp"
+        android:layout_height="310dp"
+        android:src="@drawable/filler" />
+
+
+    <Button
+        android:id="@+id/button_favorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="269dp"
+        android:fontFamily="monospace"
+        android:background="@drawable/button_states"
+        android:shape="oval"
+        android:text="Favorites" />
+
+    <Button
+        android:id="@+id/button_near_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button_favorites"
+        android:fontFamily="monospace"
+        android:background="@drawable/button_states"
+        android:shape="oval"
+        android:text="Near me"/>
+
+    <Button
+        android:id="@+id/button_edit_favorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button_near_me"
+        android:fontFamily="monospace"
+        android:background="@drawable/button_states"
+        android:shape="oval"
+        android:text="Edit favorites"/>
+
+    <Button
+        android:id="@+id/button_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/button_edit_favorites"
+        android:fontFamily="monospace"
+        android:background="@drawable/button_states"
+        android:shape="oval"
+        android:text="Return"/>
+
+
+
+</RelativeLayout>
+<!--
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</android.support.constraint.ConstraintLayout>-->
