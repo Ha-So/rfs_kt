@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Rollfor Sushi</string>
+    <string name="app_name">Roll for Sushi</string>
+    <string name="empty_list_text">No Entries!</string>
+
 </resources>

@@ -4,6 +4,15 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="680dp"
+
+        android:background="@drawable/filler"/>
+
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -13,16 +22,14 @@
 
         />
 
-    <ImageView
+
+    <pl.droidsonroids.gif.GifImageView
         android:layout_width="match_parent"
-        android:layout_height="680dp"
-        android:src="@drawable/filler" />
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
 
-    <ImageView
-        android:layout_width="505dp"
-        android:layout_height="310dp"
-        android:src="@drawable/filler" />
 
+        />
 
     <Button
         android:id="@+id/button_favorites"

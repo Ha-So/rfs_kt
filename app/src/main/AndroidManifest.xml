@@ -18,6 +18,8 @@
         </activity>
 
         <activity android:name=".HubActivity"></activity>
+
+        <activity android:name=".FavoritesActivity"></activity>
     </application>
 
 
